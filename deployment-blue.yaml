@@ -5,7 +5,6 @@ metadata:
   labels:
     app: weather
     version: blue
-  namespace: weather
 spec:
   replicas: 2
   selector:
