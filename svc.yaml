@@ -4,7 +4,6 @@ metadata:
   name: weather-service
   labels:
     app: weather
-  namespace: weather
 spec:
   type: LoadBalancer
   selector:
