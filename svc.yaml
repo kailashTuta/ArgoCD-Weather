@@ -6,7 +6,7 @@ metadata:
     app: weather
   namespace: weather
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: weather
   ports:
